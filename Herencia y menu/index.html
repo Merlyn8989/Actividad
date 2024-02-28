@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h3>Menú del restaurante</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Menú
+                </th>
+                <th>
+                    $ Precio
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="comida1">
+
+                </th>
+                <td id="precio1">
+                </td>
+            </tr>
+            <tr>
+                <th id="comida2">
+                </th>
+                <td id="precio2">
+                </td>
+            </tr>
+            <tr >
+                <th id="comida3">
+                </th>
+                <td id="precio3">
+                </td>
+            </tr>
+            <tr >
+                <th id="comida4">
+                </th>
+                <td id="precio4">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!---Pedidos-->
+    <h3>Pedidos</h3>
+    <label for="">Nombre del cliente</label><br>
+    <input type="text" id="nombre"><br>
+
+    <label for="">Comidas</label><br>
+    <input type="text" id="comidas">
+
+    <label for="">cantidad</label>
+    <input type="text" id="cantComi"><br>
+
+    <label for="">Bebidas</label><br>
+    <input type="text" id="bebidas">
+
+    <label for="">cantidad</label>
+    <input type="text" id="cantbebi"><br>
+
+    <br><br>
+    <input type="button" onclick="hacerPedido()" value="Enviar">
+    
+    <div id="contenidoDatos"></div>
+
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
