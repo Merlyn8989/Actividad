@@ -1,0 +1,59 @@
+.contenedor {
+    position: relative;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column; /* Para alinear verticalmente */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    gap: 10px;
+    height: 300px; /* Altura de ejemplo */
+}
+
+.ventanaContainer {
+    padding: 5%;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    height: 510px;
+    width: 650px;
+    background-color: rgb(195, 219, 219);
+    display: none;
+    
+}
+/* Estilos generales para el formulario */
+form {
+    background-color: transparent; /* Hacemos el formulario transparente */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Estilos para los inputs */
+form input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente */
+}
+
+/* Estilos para los labels */
+form label {
+    display: flex;
+}
+
+/* Estilos para el botón de enviar */
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilos para el botón de enviar al pasar el mouse sobre él */
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

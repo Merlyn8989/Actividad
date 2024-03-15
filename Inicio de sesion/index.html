@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="centrado">
+        <div class="contenedor">
+            <label for="user">Usuario</label>
+            <input type="text" name="" id="user">
+            <label for="pwd">Password</label>
+            <input type="password" name="" id="contra">
+            <br>
+            <button id="btnSesion">Iniciar Sesión</button>
+
+            <div class="ventanaContainer" id="ventana">
+
+                <form>
+                    <div class="grid gap-6 mb-6 md:grid-cols-2">
+                        <div>
+                            <label for="nombreCompleto">Nombre Completo</label>
+                            <input type="text" id="name" required />
+                        </div>
+                        <div>
+                            <label for="fechaNacimiento">Fecha de nacimiento</label>
+                            <input type="date" id="fechaNacimiento" required />
+                        </div>
+                        <div>
+                            <label for="genero">Género</label>
+                            <input type="text" id="genero"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                required />
+                        </div>
+                        <div>
+                            <label for="phone">Numero de telefono</label>
+                            <input type="number" id="phone" required />
+                        </div>
+                        <div>
+                            <label for="departamento">Departamento</label>
+                            <input type="text" id="departamento" required />
+                        </div>
+                        <div>
+                            <label for="ciudad">Ciudad
+                            </label>
+                            <input type="text" id="ciudad"/>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="descripcion">Descripción</label>
+                        <input type="text" id="descripcion" placeholder="Escribe detalles sobre ti..." required />
+                    </div>
+                    <button type="button" id="crearPerfil">Crear Perfil de Usuario</button>
+                </form>
+
+            </div>
+            <label for="" id="inicioSesion"></label>
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
